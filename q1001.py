@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+# Usando Python 2.7
 '''
 Leia 2 valores inteiros e armazene-os nas variáveis A e B. 
 Efetue a soma de A e B atribuindo o seu resultado na variável X. 
@@ -18,9 +18,7 @@ Cuide para que tenha um espaço antes e depois do sinal
 de igualdade, conforme o exemplo abaixo.
 '''
 
-
-A = input();
-B = input();
-X = A + B;
-
-print 'X =',X;
+A = int(input())
+B = int(input())
+X= A+B
+print('X = %d' %X)
